@@ -1,23 +1,44 @@
 import * as React from 'react';
 
-export default class Header extends React.PureComponent<{}, {}> {
+import './style.css';
 
+export default class Header extends React.PureComponent<{}, {}> {
+    
     render() {
         return(
-            <div className="intro-header">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="intro-message">
-                                <h1 />
-                                <h3 />
-                                <hr className="intro-divider" />
-                                <ul className="list-inline intro-social-buttons" />
+            <section id="slider" className="no-padding">
+            <div>
+                <div 
+                    className="item owl-bg-img"
+                    style={{'backgroundImage' : 'url("http://placehold.it/1920x1100")'}}
+                >
+                    <div className="opacity-full bg-dark-gray" />
+                    <div className="container full-screen position-relative">
+                        <div className="slider-typography text-center">
+                            <div className="slider-text-middle-main">
+                                <div 
+                                    className={'slider-text-middle slider-text-middle6 '
+                                    + 'padding-left-right-px wow fadeInUp'}
+                                >
+                                    <span 
+                                        className={'slider-title-big6 white-text text-uppercase '
+                                        + 'font-weight-700 letter-spacing-3'}
+                                    >
+                                        experiences
+                                    </span>
+                                    <span 
+                                        className={'white-text text-small text-uppercase letter-spacing-10 '
+                                        + 'margin-three no-margin-bottom display-block xs-letter-spacing-6'}
+                                    >
+                                    we craft experiences that help brands
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
         );
     }
 }

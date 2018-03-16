@@ -1,11 +1,7 @@
-import Header from './Header';
 import Navbar from './Navbar';
-import Footer from './Footer';
-import IndexContent from './IndexContent';
+import Header from './Header';
 
 export {
-    Header,
     Navbar,
-    Footer,
-    IndexContent,
+    Header,
 };
