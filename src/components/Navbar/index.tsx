@@ -6,7 +6,7 @@ export default class Navbar extends React.PureComponent<{}, {}> {
         return (
             <nav 
                 className={'navbar navbar-default navbar-fixed-top nav-transparent'
-                + 'overlay-nav sticky-nav nav-white nav-border-bottom'}
+                + 'overlay-nav sticky-nav nav-white nav-border-bottom shrink-nav'}
                 role="navigation"
             >
                 <div className="container">
