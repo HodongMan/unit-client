@@ -1,16 +1,18 @@
 import * as React from 'react';
-import { Navbar, Header, IndexDescript, Footer, IndexLocation } from './components';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import { IndexContainer } from './containers';
 
 class App extends React.Component {
     render() {
         return (
-            <div>
-                <Navbar />
-                <Header />
-                <IndexDescript />
-                <IndexLocation />
-                <Footer />
-            </div>
+            <Router>
+                <div>
+                    <Switch>
+                        <Route exact={true} path="/" component={IndexContainer} />
+                    </Switch>
+                </div>
+            </Router>
         );
     }
 }
