@@ -12,8 +12,7 @@ export default class IndexDescript extends React.PureComponent<{}, {}> {
                         <h1>A digital studio crafting beautiful experiences.</h1>
                         <p className="text-med width-90 center-col margin-seven no-margin-bottom"> 
                             We've been crafting beautiful websites, 
-                            launching stunning brands and making clients happy for years. 
-                            With our prestigious craftsmanship, remarkable client care and passion for design.
+                            AAAAAAAAAAAAAA
                             </p>
                     </div>
                 </div>
