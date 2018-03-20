@@ -8,11 +8,10 @@ export default class IndexDescript extends React.PureComponent<{}, {}> {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 col-sm-10 text-center center-col">
-                        <span className="margin-five no-margin-top display-block letter-spacing-2">EST. 2011</span>
-                        <h1>A digital studio crafting beautiful experiences.</h1>
+                        <span className="margin-five no-margin-top display-block letter-spacing-2">since. 2016</span>
+                        <h1>Universal Network for Information Technology</h1>
                         <p className="text-med width-90 center-col margin-seven no-margin-bottom"> 
-                            We've been crafting beautiful websites, 
-                            AAAAAAAAAAAAAA
+                            대학생 청년 IT 네트워크
                             </p>
                     </div>
                 </div>
