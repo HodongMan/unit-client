@@ -13,10 +13,10 @@ export default class Navbar extends React.PureComponent<{}, {}> {
                     <div className="row">
                         <div className="col-md-2 pull-left">
                             <a className="logo-light" href="index.html">
-                                <img alt="" src="images/logo-white.png" className="logo" />
+                                <img alt="" src="images/UNIT_logo_tagline.png" className="logo" />
                             </a>
                             <a className="logo-dark" href="index.html">
-                                <img alt="" src="images/logo-light.png" className="logo" />
+                                <img alt="" src="images/UNIT_logo_tagline.png" className="logo" />
                             </a>
                         </div>
                         <div className="col-md-2 no-padding-left search-cart-header pull-right">
