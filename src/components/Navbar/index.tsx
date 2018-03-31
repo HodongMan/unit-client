@@ -6,17 +6,17 @@ export default class Navbar extends React.PureComponent<{}, {}> {
         return (
             <nav 
                 className={'navbar navbar-default navbar-fixed-top nav-transparent'
-                + 'overlay-nav sticky-nav nav-white nav-border-bottom shrink-nav'}
+                + 'overlay-nav sticky-nav nav-white nav-border-bottom'}
                 role="navigation"
             >
                 <div className="container">
                     <div className="row">
                         <div className="col-md-2 pull-left">
                             <a className="logo-light" href="index.html">
-                                <img alt="" src="images/logo-white.png" className="logo" />
+                                <img alt="" src="images/UNIT_logo_nav.png" className="logo" />
                             </a>
                             <a className="logo-dark" href="index.html">
-                                <img alt="" src="images/logo-light.png" className="logo" />
+                                <img alt="" src="images/UNIT_logo_nav.png" className="logo" />
                             </a>
                         </div>
                         <div className="col-md-2 no-padding-left search-cart-header pull-right">
