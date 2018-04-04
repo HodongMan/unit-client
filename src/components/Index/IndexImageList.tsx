@@ -16,7 +16,7 @@ export default class IndexImageList extends React.PureComponent<{}, {}> {
                             <div className="blog-post">
                                 <div className="blog-post-images">
                                     <a href="/">
-                                        <img src="http://placehold.it/800x500" alt="" />
+                                        <img src="images/bg_img01.png" alt="" />
                                     </a>
                                 </div>
                                 <div className="post-details">

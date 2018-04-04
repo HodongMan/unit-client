@@ -10,9 +10,9 @@ export default class Header extends React.PureComponent<{}, {}> {
             <div>
                 <div 
                     className="item owl-bg-img"
-                    style={{'backgroundImage' : 'url("http://placehold.it/1920x1100")'}}
+                    style={{'backgroundImage' : 'url(images/bg_img01.png)'}}
                 >
-                    <div className="opacity-full bg-dark-gray" />
+                    <div className="opacity-light bg-dark-gray" />
                     <div className="container full-screen position-relative">
                         <div className="slider-typography text-center">
                             <div className="slider-text-middle-main">
@@ -30,7 +30,7 @@ export default class Header extends React.PureComponent<{}, {}> {
                                         className={'white-text text-small text-uppercase letter-spacing-10 '
                                         + 'margin-three no-margin-bottom display-block xs-letter-spacing-6'}
                                     >
-                                    we craft experiences that help brands
+                                    Universal Network for IT
                                     </span>
                                 </div>
                             </div>
