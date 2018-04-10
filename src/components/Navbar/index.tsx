@@ -13,61 +13,13 @@ export default class Navbar extends React.PureComponent<{}, {}> {
                     <div className="row">
                         <div className="col-md-2 pull-left">
                             <a className="logo-light" href="index.html">
-                                <img alt="" src="images/UNIT_logo_nav.png" className="logo" />
+                                <img alt="" src="images/UNIT_logo_nav_white.png" className="logo" />
                             </a>
                             <a className="logo-dark" href="index.html">
                                 <img alt="" src="images/UNIT_logo_nav.png" className="logo" />
                             </a>
                         </div>
-                        <div className="col-md-2 no-padding-left search-cart-header pull-right">
-                            <div id="top-search">
-                                <a href="#search-header" className="header-search-form">
-                                    <i className="fa fa-search search-button" />
-                                </a>
-                            </div>
-                            <form id="search-header" className="mfp-hide search-form-result">
-                                <div className="search-form position-relative">
-                                    <button type="submit" className="fa fa-search close-search search-button" />
-                                    <input type="text" className="search-input" placeholder="Enter your keywords..."/>
-                                </div>
-                            </form>
-                            <div className="top-cart">
-                                <a href="#" className="shopping-cart">
-                                    <i className="fa fa-shopping-cart" />
-                                    <div className="subtitle">(1) Items</div>
-                                </a>
-                                <div className="cart-content">
-                                    <ul className="cart-list">
-                                        <li>
-                                            <a title="Remove item" className="remove" href="#">×</a>
-                                            <a href="#">
-                                                <img width="90" height="90" alt="" src="http://placehold.it/90x90" />
-                                                Leather Craft
-                                            </a>
-                                            <span className="quantity">1 × <span className="amount">$160</span></span>
-                                            <a href="#">Edit</a>
-                                        </li>
-                                    </ul>
-                                    <p className="total">Subtotal: <span className="amount">$160</span></p>
-                                    <p className="buttons">
-                                        <a 
-                                            href="/" 
-                                            className={'btn btn-very-small-white no-margin-bottom '
-                                            + 'margin-seven pull-left no-margin-lr'}
-                                        >
-                                            View Cart
-                                        </a>
-                                        <a 
-                                            href="/" 
-                                            className={'btn btn-very-small-white no-margin-bottom '
-                                            + 'margin-seven no-margin-right pull-right'}
-                                        >
-                                            Checkout
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+
                         <div className="navbar-header col-sm-8 col-xs-2 pull-right">
                             <button 
                                 type="button" 

@@ -7,9 +7,9 @@ export default class IndexDescript extends React.PureComponent<{}, {}> {
             <section className="no-padding-bottom wow fadeIn">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-9 col-sm-10 text-center center-col">
-                        <h1>대학생 청년 IT 네트워크</h1>
-                        <p className="text-med width-90 center-col margin-seven no-margin-bottom"> 
+                    <div className="col-md-10 col-sm-10 text-center center-col">
+                        <h2>대학생 청년 IT 네트워크</h2>
+                        <p className="text-med width-90 center-col margin-three"> 
                             IT 동아리들을 연결하는 네트워크를 구축합니다. 활동지원을 통해 구성원들이 
                             개인의 역량을 강화하고 상호간의 우의증진과 친목도모를 이루며, 
                             IT 생태계에 기여 할 수 있는 인재가 되는 기반을 마련하고자 합니다.<br/><br/>

@@ -340,7 +340,7 @@
 
     .navbar-toggle {border-radius: 0px;}
     .navbar-default .navbar-toggle .icon-bar { background-color: #fff; }
-    .navbar-default .navbar-toggle { background-color: #000;}
+    .navbar-default .navbar-toggle { background-color:#186f25;}
 
     .dropdown-toggle.collapsed .fa-angle-down::before { content:"\f107"; }
     .dropdown-toggle .fa-angle-down::before { content:"\f106"; }
