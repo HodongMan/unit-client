@@ -24,12 +24,13 @@ export default class IndexDescript extends React.PureComponent<{}, {}> {
             </div>
             <div className="container-fluid margin-five no-margin-bottom">
                 <div className="row">
-                    <div className="col-md-12 col-sm-12 col-xs-12 bg-fast-yellow padding-three text-center">
-                        <span className="text-small text-uppercase font-weight-600 black-text letter-spacing-2">
+                    <div className="col-md-12 col-sm-12 col-xs-12 bg-main-color padding-three text-center ">
+                        <span className="text-small text-uppercase font-weight-500 white-text letter-spacing-2">
                             Web Design &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
                             Graphics &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
                             Magento &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                            WordPress &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Applications
+                            WordPress &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                            Applications
                         </span>
                     </div>
                 </div>

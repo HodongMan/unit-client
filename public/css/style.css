@@ -52,6 +52,8 @@ Table of contents
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
 
 /* ===================================
     Reset
@@ -97,6 +99,7 @@ ul, ol, dl {list-style-position: outside;}
 /* font family */
 .alt-font {font-family: "Oswald",sans-serif !important;}
 .main-font {font-family: 'Noto Sans', sans-serif !important;}
+.audiowide-font {font-family: 'Audiowide', cursive !important;}
 
 /* heading */
 h1, h2, h3, h4, h5 { text-transform: uppercase; margin:0; padding:0; color: #000; }
@@ -141,6 +144,7 @@ h1.page-title { margin:95px auto 0; width: 100%; }
 .orange-light-text{ color:#ef824c !important}
 .deep-red-text{ color:#e75e50 !important}
 .black-text{ color:#000 !important}
+.main-text{color:#186f25 !important}
 .yellow-text{ color:#e6af2a !important}
 .yellow-light-text{color: #ffd200 !important}
 .fast-yellow-text{ color:#f7d23d !important}
@@ -194,6 +198,7 @@ i { color: #9a9a9a; margin: 0 3px}
     Background color
 ====================================== */
 
+.bg-main-color{ background:#186f25 !important;}
 .bg-white{ background: #fff !important;}
 .bg-yellow{ background: #e6af2a !important; }
 .bg-deep-yellow{ background: #f7f5e7 !important; }
@@ -704,7 +709,7 @@ footer { clear:both; background: #f4f4f4}
 footer .bg-mid-gray { background: #d5d5d5}
 footer .footer-top {border-top:1px solid #e5e5e5 }
 footer h5 { margin-bottom: 20px;}
-footer .footer-middle { padding-top:80px; padding-bottom: 45px;}
+footer .footer-middle { padding-top:30px; padding-bottom: 15px;}
 footer .onepage-footer-middle { padding-top:55px; padding-bottom: 45px;}
 footer ul li { padding: 1px 0}
 footer ul li a { color: #626262; font-size: 11px; text-transform: uppercase; letter-spacing: 1px}
@@ -811,8 +816,9 @@ footer ul.list-inline li:first-child {padding-left: 6px}
 .slider-title-big5 {font-family: "Oswald",sans-serif;  font-size: 15px; font-weight: 100; letter-spacing: 7px; text-transform: uppercase; display: block; margin-bottom: 30px}
 .slider-number {border: 2px solid #fff; color: #fff; display: inline-block; font-family: "Oswald",sans-serif; font-size: 20px; font-weight: 400; margin-bottom: 60px; padding: 9px 0; width: 46px; text-align: center}
 .slider-title-big6{ font-size:110px;}
-.slider-title-big7{ font-size:55px; line-height: 68px; font-weight: 300; color: #fff; display: inline-block;}
+.slider-title-big7{ font-size:50px; line-height: 68px; font-weight: 300; color: #fff; display: inline-block;}
 .slider-title-big8 {font-family: "Oswald",sans-serif;  font-size: 25px; line-height: 35px; font-weight: 300; letter-spacing: 1px; text-transform: uppercase; display: block;}
+.slider-title-big9{ font-size:60px;}
 
 /* ===================================
     Parallax

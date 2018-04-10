@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Navbar, Header, IndexDescript, Footer, IndexLocation, IndexImageList } from '../components';
+import { Navbar, Header, IndexDescript, Footer, IndexImageList } from '../components';
 
 export default class IndexContainer extends React.Component<{}, {}> {
 
@@ -40,7 +40,6 @@ export default class IndexContainer extends React.Component<{}, {}> {
                 <Header />
                 <IndexDescript />
                 <IndexImageList />
-                <IndexLocation />
                 <Footer />
             </div>
         );

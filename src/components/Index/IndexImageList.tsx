@@ -8,7 +8,7 @@ export default class IndexImageList extends React.PureComponent<{}, {}> {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <h3 className="section-title">Latest Blogs</h3>
+                            <h3 className="section-title">project</h3>
                         </div>
                     </div>
                     <div className="row">

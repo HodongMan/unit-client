@@ -21,13 +21,13 @@ export default class Header extends React.PureComponent<{}, {}> {
                                     + 'padding-left-right-px wow fadeInUp'}
                                 >
                                     <span 
-                                        className={'slider-title-big6 white-text text-uppercase '
-                                        + 'font-weight-700 letter-spacing-3'}
+                                        className={'slider-title-big7 white-text text-uppercase '
+                                        + 'font-weight-700 letter-spacing-8 audiowide-font'}
                                     >
-                                        experiences
+                                        Everyday Grow Up 
                                     </span>
                                     <span 
-                                        className={'white-text text-small text-uppercase letter-spacing-10 '
+                                        className={'white-text text-large letter-spacing-8 '
                                         + 'margin-three no-margin-bottom display-block xs-letter-spacing-6'}
                                     >
                                     Universal Network for IT
