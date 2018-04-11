@@ -7,7 +7,7 @@ export default class IndexDescript extends React.PureComponent<{}, {}> {
             <section className="no-padding-bottom wow fadeIn">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-10 col-sm-10 text-center center-col">
+                    <div className="col-md-10 col-sm-10 text-center center-col letter-spacing-2">
                         <h2>대학생 청년 IT 네트워크</h2>
                         <p className="text-med width-80 center-col margin-three"> 
                             단체와 기업을 연결하는 중심이 되고, IT 네트워크를 구축하는 것을 목표로 합니다.

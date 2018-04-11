@@ -22,7 +22,7 @@ export default class Header extends React.PureComponent<{}, {}> {
                                 >
                                     <span 
                                         className={'slider-title-big7 white-text text-uppercase '
-                                        + 'font-weight-700 letter-spacing-8 audiowide-font'}
+                                        + 'font-weight-700 letter-spacing-8 audiowide-font' }
                                     >
                                         Everyday Grow Up 
                                     </span>

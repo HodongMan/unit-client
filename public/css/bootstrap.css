@@ -3105,7 +3105,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 992px) {
     .navbar-header {
-        float: left;
+        float: right;
     }
 }
 .navbar-collapse {
@@ -3427,7 +3427,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #373737;
+    color: #186f25;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a.active {
@@ -5248,7 +5248,7 @@ button.close {
 .navbar-collapse:after,
 .pager:after,
 .panel-body:after,
-.modal-footer:after {
+.modal-footer:after {   
     clear: both;
 }
 .center-block {
