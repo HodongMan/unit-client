@@ -4,22 +4,20 @@ export default class NotFound extends React.PureComponent<{}, {}> {
     
     render() {
         return (
-            <section className="content-top-margin no-padding-bottom border-top wow fadeIn">
+            <section className="content-top-margin wow fadeIn bg-gradation01">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-10 col-sm-8 col-xs-11 text-center center-col">
-                            <p className="not-found-title black-text">404!</p>
+                            <p className="not-found-title white-text margin-top-section">
+                                Not found, 404 Error</p>
                             <p className="text-med text-uppercase letter-spacing-2">
-                                The page you were looking<br /> for could not be found.
+                                페이지를 찾을 수 없습니다.<br /> 
+                                The page you were looking for <br /> 
+                                could not be found.
                             </p>
-                            <a className="highlight-button-dark btn btn-small no-margin-right" href="/">
+                            <a className="highlight-button-green btn btn-small no-margin-right" href="/">
                                 Go to home page
                             </a>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-10 col-sm-8 col-xs-11 center-col">
-                            <img src="images/404.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
