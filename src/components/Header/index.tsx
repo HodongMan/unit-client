@@ -31,7 +31,7 @@ export default class Header extends React.PureComponent<{}, {}> {
                                         + 'margin-three no-margin-bottom display-block xs-letter-spacing-6'}
                                     >
                                     Universal Network for IT
-                                    </span>
+                                    </span>     
                                 </div>
                             </div>
                         </div>
