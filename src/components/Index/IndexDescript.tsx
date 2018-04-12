@@ -28,11 +28,10 @@ export default class IndexDescript extends React.PureComponent<{}, {}> {
                 <div className="row">
                     <div className="col-md-12 col-sm-12 col-xs-12 bg-main-color padding-two text-center ">
                         <span className="text-small text-uppercase font-weight-500 white-text letter-spacing-2">
-                            Developer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                            Designer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                            Planner &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                            Project Manager &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                            Creator
+                            Developer &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; 
+                            Designer &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; 
+                            Planner &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; 
+                            Project Manager &nbsp;&nbsp;&nbsp;&nbsp;
                         </span>
                     </div>
                 </div>

@@ -19,20 +19,8 @@ export default class Navbar extends React.PureComponent<{}, {}> {
                                 <img alt="" src="images/UNIT_logo_nav.png" className="logo" />
                             </a>
                         </div>
-                        <div className="navbar-header col-sm-8 col-xs-2 pull-right">
-                            <button 
-                                type="button" 
-                                className="navbar-toggle" 
-                                data-toggle="collapse" 
-                                data-target=".navbar-collapse"
-                            >
-                                <span className="sr-only">Toggle navigation</span> 
-                                <span className="icon-bar" /> 
-                                <span className="icon-bar" /> 
-                                <span className="icon-bar" />
-                            </button>
-                        </div>
-                        <div className="col-md-8 no-padding-right accordion-menu text-right">
+                    
+                        <div className="col-md-8 accordion-menu text-right pull-right">
                             <div className="navbar-collapse collapse">
                                 <ul id="accordion" className="nav navbar-nav navbar-right panel-group">
                                     <li className="dropdown panel">
@@ -92,6 +80,20 @@ export default class Navbar extends React.PureComponent<{}, {}> {
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+
+                        <div className="navbar-header col-sm-2 col-xs-2">
+                            <button 
+                                type="button" 
+                                className="navbar-toggle" 
+                                data-toggle="collapse" 
+                                data-target=".navbar-collapse"
+                            >
+                                <span className="sr-only">Toggle navigation</span> 
+                                <span className="icon-bar" /> 
+                                <span className="icon-bar" /> 
+                                <span className="icon-bar" />
+                            </button>
                         </div>
                     </div>
                 </div>

@@ -1733,7 +1733,7 @@ ul.list-line li span {min-width:130px; display:inline-block}
 .faq-search-button { color: #000; cursor: pointer; font-size: 21px; position: absolute; right: 60px; top: 21px; }
 
 /* 404 */
-.not-found-title { font-size:60px; line-height:100px; display:block; font-weight: 700}
+.not-found-title { font-size:40px; line-height:100px; display:block; font-weight: 700}
 
 /* client */
 
