@@ -14,7 +14,7 @@ export default class IndexContainer extends React.Component<{}, {}> {
         if (window) {
             window.addEventListener('scroll', (event: Event) => {
                 let navbar: Element = document.getElementsByClassName('navbar')[0];
-                if (window.scrollY > 10) {
+                if (window.scrollY > 50) {
                     this.addClass(navbar, 'shrink-nav');
                 } else {
                     this.removeClass(navbar, 'shrink-nav');
@@ -23,14 +23,15 @@ export default class IndexContainer extends React.Component<{}, {}> {
         }        
     }
 
-    addClass(element: Element, className: String) {
-        element.className += ' ' + className; 
+    addClass(element: Element, className: string) {
+        // element.className += ' ' + className;
+        element.classList.add(className);
     }
 
-    removeClass(element: Element, className: String) {
-        const check: RegExp = new RegExp('(\\s|^)' + className + '(\\s|$)');
-        element.className = element.className.replace(check, ' ').trim();
-
+    removeClass(element: Element, className: string) {
+        // const check: RegExp = new RegExp('(\\s|^)' + className + '(\\s|$)');
+        // element.className = element.className.replace(check, ' ').trim();
+        element.classList.remove(className);
     }
 
     render() {

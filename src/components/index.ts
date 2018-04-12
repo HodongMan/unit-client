@@ -4,6 +4,7 @@ import IndexDescript from './Index/IndexDescript';
 import IndexLocation from './Index/indexLocation';
 import IndexImageList from './Index/IndexImageList';
 import Footer from './Footer';
+import NotFound from './404';
 
 export {
     Navbar,
@@ -12,4 +13,5 @@ export {
     IndexLocation,
     IndexImageList,
     Footer,
+    NotFound,
 };
