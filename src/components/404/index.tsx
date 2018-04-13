@@ -4,11 +4,11 @@ export default class NotFound extends React.PureComponent<{}, {}> {
     
     render() {
         return (
-            <section className="content-top-margin wow fadeIn bg-gradation01">
+            <section className="wow fadeIn bg-gradation01">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-10 col-sm-8 col-xs-11 text-center center-col">
-                            <p className="not-found-title white-text margin-top-section">
+                            <p className="not-found-title white-text margin-ten no-margin-bottom">
                                 Not found, 404 Error</p>
                             <p className="text-med text-uppercase letter-spacing-1">
                                 페이지를 찾을 수 없습니다.<br /> 

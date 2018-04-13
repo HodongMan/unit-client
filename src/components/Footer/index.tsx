@@ -35,7 +35,7 @@ export default class Footer extends React.PureComponent<{}, {}> {
                                 className={'col-md-6 col-sm-6 col-xs-12 text-left letter-spacing-1'
                                 + ' xs-text-center xs-margin-bottom-one text0bol white-text'}
                             >
-                                &copy; 2017 UNIT.center is powered by Hodong, QURIAN
+                                &copy; 2017 UNIT.center powered by Hodong, QURIAN
                             </div>
                             <div className="col-md-6 col-sm-6 col-xs-12 footer-logo text-right xs-text-center">
                                 <a href="index.html"><img src="images/logo-light-gray.png" alt="" /></a>
